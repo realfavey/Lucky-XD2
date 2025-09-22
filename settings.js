@@ -74,7 +74,7 @@ NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363420656466131@newsletter',
   AUTO_BIO: process.env.AUTO_BIO || "false",
   WELCOME: process.env.WELCOME || "false",
   GOODBYE: process.env.GOODBYE || "false",
-  ADMIN_ACTION: process.env.ADMIN_ACTION || "false",
+  ADMIN_ACTION: process.env.ADMIN_ACTION || "true",
   version: process.env.version || "1.5.0",
   TIMEZONE: settings.TIMEZONE || process.env.TIMEZONE || "Africa/Kampala",
 
